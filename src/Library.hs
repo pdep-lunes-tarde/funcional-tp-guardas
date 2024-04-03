@@ -1,43 +1,28 @@
 module Library where
 import PdePreludat
 
--- 1. Numeros
+-- 1. Mas numeros!
 
-siguiente :: Number -> Number
-siguiente = implementame
+max' :: Number -> Number -> Number
+max' = implementame
 
-esPositivo :: Number -> Bool
-esPositivo = implementame
+min' :: Number -> Number -> Number
+min' = implementame
 
--- escriban el tipo de esta función
-inversa n = implementame
+-- 1.5 Bonus OPCIONAL
+cuantosDiasTiene :: Number -> Number
+cuantosDiasTiene anio = implementame
 
--- 2. Temperaturas
+precioTotal :: Number -> Number -> Number
+precioTotal valorUnitario cantidad = implementame
 
-celsiusAFahrenheit :: Number -> Number
-celsiusAFahrenheit celsius = implementame
-
-fahrenheitACelsius :: Number -> Number
-fahrenheitACelsius fahrenheit = implementame
+-- 2. Pinos
 
 -- escriban el tipo de esta función
-haceFrioCelsius grados = implementame
+pesoPino = implementame
 
 -- escriban el tipo de esta función
-haceFrioFahrenheit grados = implementame
+esPesoUtil = implementame
 
--- 2.5 Bonus OPCIONAL
-perimetroCirculo :: Number -> Number
-perimetroCirculo radio = implementame
-
-perimetroCuadrado :: Number -> Number
-perimetroCuadrado lado = implementame
-
-superficieCuadrado :: Number -> Number
-superficieCuadrado lado = implementame
-
-superficieCubo :: Number -> Number
-superficieCubo lado = implementame
-
-superficieCilindro :: Number -> Number -> Number
-superficieCilindro radio altura = implementame
+-- escriban el tipo de esta función
+sirvePino = implementame
