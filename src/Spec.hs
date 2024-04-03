@@ -4,6 +4,7 @@ import Library
 import Test.Hspec
 import           Control.Monad (unless)
 import Test.Hspec.Runner (Config(..), hspecWith, defaultConfig)
+import Test.Hspec.Formatters (specdoc)
 
 correrTests :: IO ()
 correrTests = runHspec $ do
@@ -72,4 +73,4 @@ shouldBeEqualUpTo2Decimals aNumber anotherNumber = shouldBeEqualWithErrorLessTha
 shouldBeEqualWithErrorLessThan :: Number -> Number -> Number -> Expectation       
 shouldBeEqualWithErrorLessThan error aNumber anotherNumber
   | aNumber - anotherNumber < error = pure () -- Esto hace que el test de verde!
-| otherwise = expectationFailure (show aNumber ++ " no es igual (comparando con error < " ++ show error ++ ") a " ++ show anotherNumber)
+  | otherwise = expectationFailure (show aNumber ++ " no es igual (comparando con error < " ++ show error ++ ") a " ++ show anotherNumber)
