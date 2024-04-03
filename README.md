@@ -39,7 +39,7 @@ Para esto, les recomiendo que usen mucho `stack ghci` para probar cosas por cons
 
 # El enunciado
 
-## 3. [Guardas] Más números! 📈
+## 1. [Guardas] Más números! 📈
 
 Acá vamos a definir un par de funciones muy útiles, `max` y `min`.
 - **max** toma dos valores como parámetro y nos devuelve aquel que sea mas grande
@@ -51,7 +51,7 @@ Como estas funciones ya existen en Haskell, pero queremos definirlas igual para 
 **Para las funciones de este punto hay que escribir los tests**.
 ---
 
-### 3.5⚡**Bonus OPCIONAL**⚡
+### 1.5⚡**Bonus OPCIONAL**⚡
 
 - **cuantosDiasTiene**, que dado un año nos devuelve la cantidad de días de ese año. Un año tiene 365 días si no es bisiesto y 366 si sí lo es.
 - En un supermercado hay una promoción al comprar al por mayor, entonces queremos definir una función **precioTotal** que represente esa promoción. Las reglas de la misma son, dado el valor unitario del producto y la cantidad de productos comprados:
@@ -60,7 +60,7 @@ Como estas funciones ya existen en Haskell, pero queremos definirlas igual para 
   - Si se compraron 10 o mas, el total es el 70% del precio del producto por la cantidad.
 ---
 
-### 4. Pinos 🌲
+### 2. Pinos 🌲
 
 En una plantación de pinos, de cada árbol se conoce la altura expresada en metros. El peso de un pino se puede calcular a partir de la altura así:
 
