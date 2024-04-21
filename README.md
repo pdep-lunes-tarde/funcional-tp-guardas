@@ -44,6 +44,7 @@ Para esto, les recomiendo que usen mucho `stack ghci` para probar cosas por cons
 Acá vamos a definir un par de funciones muy útiles, `max` y `min`.
 - **max** toma dos valores como parámetro y nos devuelve aquel que sea mas grande
 - **min** toma lo mismo que max pero nos devuelve el que sea mas chico.
+
 Entonces, yo puedo hacer `min 2 3` y el resultado sería `2`, y si hago `max 3 15.5` el resultado debería ser 15.5.
 
 Como estas funciones ya existen en Haskell, pero queremos definirlas igual para practicar, vamos a ponerles de nombre `max'` y `min'` (el ' es un caracter valido para las funciones en Haskell), y en este ejercicio no vale definirlas como `max' = max` ;).
