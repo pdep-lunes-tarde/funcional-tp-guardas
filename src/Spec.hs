@@ -2,12 +2,9 @@ module Spec where
 import PdePreludat
 import Library
 import Test.Hspec
-import           Control.Monad (unless)
-import Test.Hspec.Runner (Config(..), hspecWith, defaultConfig)
-import Test.Hspec.Formatters (specdoc)
 
 correrTests :: IO ()
-correrTests = runHspec $ do
+correrTests = hspec $ do
   suiteDeTestsDeParteI
   suiteDeTestsDeParteIBonus
   suiteDeTestsDeParteII
@@ -62,8 +59,6 @@ suiteDeTestsDeParteII =
 
     describe "sirvePino" $ do
       escribiTestsParaEstaFuncion
-
-runHspec tests = hspecWith defaultConfig {configFormatter = Just specdoc} tests
 
 escribiTestsParaEstaFuncion :: SpecWith ()
 escribiTestsParaEstaFuncion = pure ()
