@@ -1,19 +1,13 @@
 # TP-1
 
-## Grupo, nombre y legajo de integrantes
-
-- Nombre del grupo: **Completar**
-
-Integrantes:
-- Legajo: **Completar** 
-- Nombre: **Completar**
+## Nombre y legajo
 
 - Legajo: **Completar** 
 - Nombre: **Completar**
 
 ## Pre-requisitos
 
-Necesitás haber instalado el ambiente según se explica en el [TP-0](https://classroom.github.com/a/u4aiGg9H).
+Necesitás haber instalado el ambiente según se explica en el [TP-0](https://classroom.github.com/a/iSl8Geaf).
 
 ## Ayuda
 
@@ -86,10 +80,3 @@ Vamos a definir las siguientes funciones, y en este punto, todas van a ser tipad
 - **sirvePino**: recibe la altura de un pino y responde si un pino de ese peso le sirve a la fábrica. 
 
 **Para las funciones de este punto hay que escribir los tests**.
-
----
-
-## Que hacer cuando terminan el TP
-
-Cuando terminen, creen un issue etiquetando a sus tutores así les llega una notificación y se corrigen y les dejan feedback ahí.
-![](https://i.imgur.com/ypeXpBw.gif)
